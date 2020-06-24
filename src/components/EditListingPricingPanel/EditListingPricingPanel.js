@@ -45,7 +45,7 @@ const EditListingPricingPanel = props => {
       }}
     />
   ) : (
-    <FormattedMessage id="EditListingPricingPanel.createListingTitle" />
+    <FormattedMessage id="What's your rate?" />
   );
 
   const priceCurrencyValid = price instanceof Money ? price.currency === config.currency : true;

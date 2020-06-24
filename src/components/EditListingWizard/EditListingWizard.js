@@ -43,7 +43,6 @@ export const TABS = [
   LOCATION,
   PRICING,
   ...availabilityMaybe,
-  PHOTOS,
 ];
 
 // Tabs are horizontal in small screens
@@ -101,8 +100,6 @@ const tabCompleted = (tab, listing) => {
       return !!price;
     case AVAILABILITY:
       return !!availabilityPlan;
-    case PHOTOS:
-      return images && images.length > 0;
     default:
       return false;
   }

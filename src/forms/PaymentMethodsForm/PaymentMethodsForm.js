@@ -206,7 +206,7 @@ class PaymentMethodsForm extends Component {
     });
 
     const infoText = intl.formatMessage({
-      id: 'PaymentMethodsForm.infoText',
+      id: 'I authorise TruckConnection to send instructions to the financial institution that issued my card to take payments from my card account in accordance with the terms of my agreement with you.',
     });
 
     // Stripe recommends asking billing address.

@@ -62,7 +62,7 @@ StripeBankAccountRequiredInput.defaultProps = {
   rootClassName: null,
   className: null,
   inputError: null,
-  disabled: false,
+  disabled: true,
 };
 
 StripeBankAccountRequiredInput.propTypes = {

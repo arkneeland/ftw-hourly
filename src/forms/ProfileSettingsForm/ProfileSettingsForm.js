@@ -94,7 +94,7 @@ class ProfileSettingsFormComponent extends Component {
             id: 'ProfileSettingsForm.bioLabel',
           });
           const bioPlaceholder = intl.formatMessage({
-            id: 'ProfileSettingsForm.bioPlaceholder',
+            id: 'Tell us a bit about your company',
           });
 
           const uploadingOverlay =
@@ -245,9 +245,7 @@ class ProfileSettingsFormComponent extends Component {
                     );
                   }}
                 </Field>
-                <div className={css.tip}>
-                  <FormattedMessage id="ProfileSettingsForm.tip" />
-                </div>
+
                 <div className={css.fileInfo}>
                   <FormattedMessage id="ProfileSettingsForm.fileInfo" />
                 </div>
@@ -289,7 +287,7 @@ class ProfileSettingsFormComponent extends Component {
                   placeholder={bioPlaceholder}
                 />
                 <p className={css.bioInfo}>
-                  <FormattedMessage id="ProfileSettingsForm.bioInfo" />
+                  <FormattedMessage id="Help area contractors get to know you and your company." />
                 </p>
               </div>
               {submitError}
