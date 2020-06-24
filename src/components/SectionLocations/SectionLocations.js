@@ -47,23 +47,23 @@ const SectionLocations = props => {
   return (
     <div className={classes}>
       <div className={css.title}>
-        <FormattedMessage id="SectionLocations.title" />
+        <FormattedMessage id="Find available trucks in your area:" />
       </div>
       <div className={css.locations}>
         {locationLink(
-          'New York',
+          'Single-Axle Trucks',
           nyImage,
-          '?address=New%20York%20City%2C%20New%20York%2C%20USA&bounds=40.917576401307%2C-73.7008392055224%2C40.477399%2C-74.2590879797556'
+          '?address=single-axle-trucks'
         )}
         {locationLink(
-          'Los Angeles',
+          'Tractor-Trailer Trucks',
           laImage,
-          '?address=Los%20Angeles%2C%20California%2C%20USA&bounds=34.161440999758%2C-118.121305008073%2C33.9018913203336%2C-118.521456965901'
+          '?address=tractor-trailer-trucks'
         )}
         {locationLink(
-          'San Francisco',
+          'SuperDump Trucks',
           sfImage,
-          '?address=San%20Francisco%2C%20California%2C%20USA&bounds=37.8324430069081%2C-122.354995082683%2C37.6044780500533%2C-122.517910874663'
+          '?address=super-dump-trucks'
         )}
       </div>
     </div>

@@ -39,7 +39,7 @@ export const LandingPageComponent = props => {
   // We are using JSON-LD format
   const siteTitle = config.siteTitle;
   const schemaTitle = intl.formatMessage({ id: 'LandingPage.schemaTitle' }, { siteTitle });
-  const schemaDescription = intl.formatMessage({ id: 'LandingPage.schemaDescription' });
+  const schemaDescription = intl.formatMessage({ id: 'Find available trucks in your area' });
   const schemaImage = `${config.canonicalRootURL}${facebookImage}`;
 
   return (

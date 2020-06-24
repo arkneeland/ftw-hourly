@@ -32,9 +32,9 @@ const EditListingDescriptionFormComponent = props => (
         fetchErrors,
       } = formRenderProps;
 
-      const titleMessage = intl.formatMessage({ id: 'EditListingDescriptionForm.title' });
+      const titleMessage = intl.formatMessage({ id: 'Company name' });
       const titlePlaceholderMessage = intl.formatMessage({
-        id: 'EditListingDescriptionForm.titlePlaceholder',
+        id: 'What\'s your company\'s name?',
       });
       const titleRequiredMessage = intl.formatMessage({
         id: 'EditListingDescriptionForm.titleRequired',
@@ -47,10 +47,10 @@ const EditListingDescriptionFormComponent = props => (
       );
 
       const descriptionMessage = intl.formatMessage({
-        id: 'EditListingDescriptionForm.description',
+        id: 'Trucks',
       });
       const descriptionPlaceholderMessage = intl.formatMessage({
-        id: 'EditListingDescriptionForm.descriptionPlaceholder',
+        id: 'What type of trucks do you have?',
       });
       const maxLength60Message = maxLength(maxLengthMessage, TITLE_MAX_LENGTH);
       const descriptionRequiredMessage = intl.formatMessage({

@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import IconLogo from './IconLogo';
+import LogoImage from './saunatime-logo.png'
+import MobileDesktopImage from './saunatime-logo.png'
+import DesktopLogoImage from './saunatime-logo.png'
 import css from './Logo.css';
 
 const Logo = props => {

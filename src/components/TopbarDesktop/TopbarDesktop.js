@@ -94,7 +94,7 @@ const TopbarDesktop = props => {
               {currentUserListing ? (
                 <FormattedMessage id="TopbarDesktop.editYourListingLink" />
               ) : (
-                <FormattedMessage id="TopbarDesktop.addYourListingLink" />
+                <FormattedMessage id="Edit contractor profile" />
               )}
             </div>
           </OwnListingLink>
@@ -130,7 +130,7 @@ const TopbarDesktop = props => {
   const signupLink = isAuthenticatedOrJustHydrated ? null : (
     <NamedLink name="SignupPage" className={css.signupLink}>
       <span className={css.signup}>
-        <FormattedMessage id="TopbarDesktop.signup" />
+        <FormattedMessage id="Truck Drivers" />
       </span>
     </NamedLink>
   );
@@ -150,7 +150,7 @@ const TopbarDesktop = props => {
         listing={currentUserListing}
         children={
           <span className={css.createListing}>
-            <FormattedMessage id="TopbarDesktop.viewListing" />
+            <FormattedMessage id="Profile" />
           </span>
         }
       />
@@ -160,7 +160,7 @@ const TopbarDesktop = props => {
     isAuthenticatedOrJustHydrated && !(currentUserListingFetched && !currentUserListing) ? null : (
       <NamedLink className={css.createListingLink} name="NewListingPage">
         <span className={css.createListing}>
-          <FormattedMessage id="TopbarDesktop.createListing" />
+          <FormattedMessage id="Contractors" />
         </span>
       </NamedLink>
     );
@@ -171,7 +171,7 @@ const TopbarDesktop = props => {
         <Logo
           format="desktop"
           className={css.logo}
-          alt={intl.formatMessage({ id: 'TopbarDesktop.logo' })}
+          alt={intl.formatMessage({ id: 'Logo' })}
         />
       </NamedLink>
       {search}

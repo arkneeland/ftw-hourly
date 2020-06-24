@@ -14,7 +14,7 @@ const SectionHowItWorks = props => {
   return (
     <div className={classes}>
       <div className={css.title}>
-        <FormattedMessage id="SectionHowItWorks.titleLineOne" />
+        <FormattedMessage id="How TruckConnection works..." />
         <br />
         <FormattedMessage id="SectionHowItWorks.titleLineTwo" />
       </div>
@@ -22,29 +22,24 @@ const SectionHowItWorks = props => {
       <div className={css.steps}>
         <div className={css.step}>
           <h2 className={css.stepTitle}>
-            <FormattedMessage id="SectionHowItWorks.part1Title" />
+            <FormattedMessage id="1. Contractors:" />
           </h2>
           <p>
-            <FormattedMessage id="SectionHowItWorks.part1Text" />
+            <FormattedMessage id="Browse a full, searchable list of trucks available in your area. Sort and filter by the type of truck needed and the time and date of the availability. Truck Connection doesn't charge commission... fill as many jobs as possible for one low, monthly rate." />
           </p>
         </div>
 
         <div className={css.step}>
           <h2 className={css.stepTitle}>
-            <FormattedMessage id="SectionHowItWorks.part2Title" />
+            <FormattedMessage id="2. Truck Drivers" />
           </h2>
           <p>
-            <FormattedMessage id="SectionHowItWorks.part2Text" />
+            <FormattedMessage id="Post your truck(s) and update your calendar to indicate when you're available, and wait for the job offers to roll in! Update your availability in your profile to ensure you stay as busy and efficient as possible." />
           </p>
         </div>
 
         <div className={css.step}>
-          <h2 className={css.stepTitle}>
-            <FormattedMessage id="SectionHowItWorks.part3Title" />
-          </h2>
-          <p>
-            <FormattedMessage id="SectionHowItWorks.part3Text" />
-          </p>
+
         </div>
       </div>
       <div className={css.createListingLink}>

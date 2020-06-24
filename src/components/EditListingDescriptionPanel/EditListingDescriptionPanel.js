@@ -43,7 +43,7 @@ const EditListingDescriptionPanel = props => {
       }}
     />
   ) : (
-    <FormattedMessage id="EditListingDescriptionPanel.createListingTitle" />
+    <FormattedMessage id="Create Provider's Profile" />
   );
 
   const certificateOptions = findOptionsForSelectFilter('certificate', config.custom.filters);
@@ -70,7 +70,6 @@ const EditListingDescriptionPanel = props => {
         updated={panelUpdated}
         updateInProgress={updateInProgress}
         fetchErrors={errors}
-        certificateOptions={certificateOptions}
       />
     </div>
   );

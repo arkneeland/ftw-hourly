@@ -75,7 +75,7 @@ class EditListingLocationPanel extends Component {
         }}
       />
     ) : (
-      <FormattedMessage id="EditListingLocationPanel.createListingTitle" />
+      <FormattedMessage id="Where are you located?" />
     );
 
     return (
